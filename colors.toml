@@ -1,0 +1,35 @@
+mode = "light"
+
+# Soft parchment, sage skin, cocoa robe — a kids-friendly Grogu storybook.
+accent = "#5F8F4A"
+selection = "#D7E8C4"
+muted = "#A89478"
+
+background = "#F6EEDD"
+dark_background = "#EDE3CC"
+darker_background = "#E0D3B6"
+lighter_background = "#FFF8EC"
+
+foreground = "#3A2818"
+dark_foreground = "#A08A70"
+light_foreground = "#5C4330"
+bright_foreground = "#2A1C10"
+
+red = "#D15C4E"
+yellow = "#D4A02A"
+orange = "#C87A3A"
+green = "#5F8F4A"
+cyan = "#4E9E90"
+blue = "#4A7FA0"
+magenta = "#C46B7E"
+brown = "#6B4A32"
+
+bright_red = "#E88878"
+bright_yellow = "#E8C04A"
+bright_green = "#86B86A"
+bright_cyan = "#7BC4B4"
+bright_blue = "#74A8C4"
+bright_magenta = "#E090A0"
+
+hyprland_active_border = "rgba(5f8f4aee) rgba(d4a02aee) 45deg"
+hyprland_inactive_border = "rgba(c4b49aaa)"
