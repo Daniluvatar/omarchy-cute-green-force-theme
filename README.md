@@ -25,13 +25,14 @@ omarchy theme set "Cute Green Force"
 Omarchy reads `~/.config/omarchy/branding/screensaver.txt`, not the theme folder.
 
 ```bash
-cp branding/screensaver.txt ~/.config/omarchy/branding/screensaver-cute-green-force.txt
-cp branding/screensaver.txt ~/.config/omarchy/branding/screensaver.txt
+cp branding/screensaver-cute-green-force.txt ~/.config/omarchy/branding/
+cp branding/screensaver-cute-green-force.txt ~/.config/omarchy/branding/screensaver.txt
+omarchy hook install theme-set hooks/screensaver-by-theme
 omarchy-launch-screensaver force
 ```
 
-With the `screensaver-by-theme` hook, `omarchy theme set` copies
-`screensaver-<slug>.txt` automatically. Slug after git-install is `cute-green-force`.
+The hook copies `screensaver-<slug>.txt` on `omarchy theme set`. Slug after
+git-install is `cute-green-force`.
 
 ## License
 
