@@ -10,15 +10,11 @@ After install the theme menu name is **Cute Green Force**.
 ## Install
 
 ```bash
-omarchy theme install https://github.com/<you>/omarchy-cute-green-force-theme.git
-```
-
-Until this repo is on GitHub, copy it by hand:
-
-```bash
-cp -r . ~/.config/omarchy/themes/cute-green-force
+omarchy theme install https://github.com/Daniluvatar/omarchy-cute-green-force-theme.git
 omarchy theme set "Cute Green Force"
 ```
+
+Cycle wallpapers with Super+Ctrl+Space or `omarchy theme bg next`.
 
 ## Screensaver (optional, not applied by theme install)
 
@@ -31,8 +27,8 @@ omarchy hook install theme-set hooks/screensaver-by-theme
 omarchy-launch-screensaver force
 ```
 
-The hook copies `screensaver-<slug>.txt` on `omarchy theme set`. Slug after
-git-install is `cute-green-force`.
+The hook copies `screensaver-cute-green-force.txt` into `screensaver.txt` when
+you run `omarchy theme set "Cute Green Force"`.
 
 ## License
 
